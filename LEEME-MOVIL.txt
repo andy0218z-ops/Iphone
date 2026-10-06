@@ -1,0 +1,28 @@
+SaveT — versión móvil con 4 módulos
+====================================
+
+Módulos incluidos
+1. 🏠 Resumen
+2. 📋 Movimientos
+3. 👥 Familia
+4. 🔮 Planificación
+
+Instalación en Android
+----------------------
+1. Descomprime el ZIP en un servidor que use HTTPS.
+2. Abre la dirección de SaveT en Chrome desde el celular.
+3. Pulsa “📲 Instalar” cuando aparezca el botón, o usa el menú de Chrome → Instalar aplicación.
+4. SaveT quedará como una aplicación independiente en el teléfono.
+
+Instalación en iPhone/iPad
+--------------------------
+1. Abre SaveT desde Safari usando HTTPS.
+2. Pulsa Compartir.
+3. Selecciona “Añadir a pantalla de inicio”.
+
+Importante
+----------
+- Abrir index.html directamente como archivo local (file://) NO permite que el navegador registre el Service Worker. Para instalarla como aplicación se necesita HTTPS.
+- La aplicación puede trabajar con datos locales en el dispositivo.
+- La sincronización de cuenta y Familia utiliza Supabase y requiere conexión a Internet.
+- No se eliminaron los 4 módulos ni la lógica existente de datos, metas, presupuestos, préstamos, familia y planificación.

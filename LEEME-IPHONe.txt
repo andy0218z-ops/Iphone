@@ -1,0 +1,15 @@
+SaveT — versión optimizada para iPhone
+
+IMPORTANTE
+SaveT se instala en iPhone como una PWA desde Safari. El sitio debe estar publicado mediante HTTPS.
+
+INSTALACIÓN
+1. Abre la dirección HTTPS de SaveT en Safari.
+2. Pulsa Compartir.
+3. Elige “Añadir a pantalla de inicio”.
+4. Pulsa “Añadir”.
+5. Abre SaveT desde el nuevo icono.
+
+La aplicación incluye los cuatro módulos: Resumen, Movimientos, Familia y Planificación.
+
+No abras index.html directamente desde Archivos esperando una instalación PWA: el Service Worker requiere HTTPS (o localhost durante desarrollo).
